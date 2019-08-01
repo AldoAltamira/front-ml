@@ -379,7 +379,7 @@ class ListContacts extends Component {
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button onClick={() => this.handleClickOpenView(false)} color="primary">
+            <Button onClick={() => this.handleClickOpenEdit(false)} color="primary">
               Cerrar
             </Button>
             <Button onClick={this.editUser} color="secondary" autoFocus>
